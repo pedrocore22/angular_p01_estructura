@@ -5,12 +5,16 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { MensajeComponent } from './mensaje/mensaje.component';
 import { FooterComponent } from './footer/footer.component';
+import { InterpolationComponent } from './interpolation/interpolation.component';
+import { PropertyBindingComponent } from './property-binding/property-binding.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MensajeComponent,
-    FooterComponent
+    FooterComponent,
+    InterpolationComponent,
+    PropertyBindingComponent,
   ],
   imports: [
     BrowserModule,
